@@ -1,0 +1,24 @@
+body{background-color: rgba(135, 138, 138, 0.9098039215686274);}
+div#hangmanstatus {
+    background-image: url("../img/hangman_allframes2.png");
+    /* background-position: 0px 0px; */
+    width: 77px;
+    height: 86px;
+}
+.frame0{background-position: 0px       0px;}
+.frame1{background-position: 153px     0px;}
+.frame2{background-position: 77px      0px;}
+
+.frame3{background-position: 0px     -85px;}
+.frame4{background-position: 153px   -85px;}
+.frame5{background-position: 77px    -85px;}
+
+.frame6{background-position: 0px    -170px;}
+.frame7{background-position: 153px  -170px;}
+.frame8{background-position: 77px   -170px;}
+
+.frame9{background-position: 0px    -255px;}
+.frame10{background-position:153px  -255px;}
+.frame11{background-position:77px   -255px;}
+.table1{background-color: rgba(255, 181, 14, 0.39);}
+.title{font-weight:bold;font-size: 36px;background-color: rgba(191, 165, 68, 0.52);color: rgba(37, 24, 109, 0.66);}

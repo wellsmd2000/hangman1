@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<!--<meta http-equiv="refresh" content="5">-->
+	<title>Mike Wells - Hangman</title>
+
+	<!-- Basic styling, centering the canvas -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<!-- Javascript - App-specific-->
+	<script type="text/javascript" src="js/index.js"></script>
+
+ </head>
+
+<body>
+<div class="title">Hangman</div>
+
+
+
+<div id="maincontainer">
+
+	<div id="gameframe">
+		<div id="hangmanstatus"></div>
+	</div>
+
+
+	<table class="table1">
+		<tr> <td>MATCHED</td> <td> <input type="text" id="displayedword"    readonly value=""></td> </tr>
+		<tr> <td>MATCHED</td> <td> <input type="text" id="matchedletters"   readonly value=""></td> </tr>
+		<tr> <td>MISSED </td> <td> <input type="text" id="unmatchedletters" readonly value=""></td> </tr>
+		<tr> <td>INPUT  </td> <td> <input type="text" id="letterinput"               value=""></td> </tr>
+	</table>
+
+</div>
+
+<!-- <img src="img/hangman_allframes2.png"> -->
+
+</body>
+</html>
