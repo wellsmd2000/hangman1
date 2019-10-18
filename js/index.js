@@ -17,6 +17,7 @@ var wordlist=[
 	"AUDITORIUM",
 	"PROCESSOR",
 	"SPEAKER",
+	"NICKSEN782",
 ];
 
 var lettersMatched=[];
